@@ -13,7 +13,7 @@ if jenis_algoritma == "Support Vector Machine (SVM)":
         model = pickle.load(file)
 
     # Input untuk variabel
-    with st.expander("Masukkan Data (Diameter, Weigh, Red, Green, dan Blue)"):
+    with st.expander("Masukkan Data Fruit"):
         fitur1 = st.number_input("Diameter")
         fitur2 = st.number_input("Weight")
         fitur3 = st.number_input("Red")
